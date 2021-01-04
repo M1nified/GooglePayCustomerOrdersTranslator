@@ -99,6 +99,12 @@ const parseGoogleDateTime = (googleDateTime: string) => {
 const getConversionRate = async (base: string, target: string, date: Date) => {
   const url = `https://data.fixer.io/api/${date.toISOString().slice(0, 10)}?access_key=${window.localStorage.getItem('API_KEY')}&symbols=${base},${target}`;
   console.log(url);
-  const response = await (await fetch(url)).json();
-  return response.rates[target] / response.rates[base];
+  try{
+    const response = await (await fetch(url)).json();
+    console.log(response)
+    return response.rates[target] / response.rates[base];
+  }catch(err){
+    console.error(err);
+  }
+  return -1;
 }

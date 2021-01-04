@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/GooglePayCustomerOrdersTranslator/static/css/main.ab7136cd.chunk.css",
-    "main.js": "/GooglePayCustomerOrdersTranslator/static/js/main.001f551b.chunk.js",
-    "main.js.map": "/GooglePayCustomerOrdersTranslator/static/js/main.001f551b.chunk.js.map",
+    "main.js": "/GooglePayCustomerOrdersTranslator/static/js/main.aeb78d7a.chunk.js",
+    "main.js.map": "/GooglePayCustomerOrdersTranslator/static/js/main.aeb78d7a.chunk.js.map",
     "runtime-main.js": "/GooglePayCustomerOrdersTranslator/static/js/runtime-main.0c895531.js",
     "runtime-main.js.map": "/GooglePayCustomerOrdersTranslator/static/js/runtime-main.0c895531.js.map",
     "static/js/2.dd8e1423.chunk.js": "/GooglePayCustomerOrdersTranslator/static/js/2.dd8e1423.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.0c895531.js",
     "static/js/2.dd8e1423.chunk.js",
     "static/css/main.ab7136cd.chunk.css",
-    "static/js/main.001f551b.chunk.js"
+    "static/js/main.aeb78d7a.chunk.js"
   ]
 }
